@@ -27,3 +27,7 @@ def 函數名稱(參數值1[,參數值2,...]):
 去看greeting.py
 
 可以將greeting的第8行以後的程式碼稱主程式，可以在greeting_no_function.py查看沒有函數功能的程式設計。
+
+可以發現greeting.py和greeting_no_function.py執行結果是一樣
+
+雖然greeting_no_function.py可以完成工作,但是可以發現重複的語句太多了，這不是一個好的設計。如果將"Python 歡迎你" 改成 "Python歡迎你們",程式必須修改5次相同語句。經過greeting_no_function.py和greeting.py的實做比對可以了解函數對程式設計的好處
