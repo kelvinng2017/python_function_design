@@ -21,13 +21,22 @@ def 函數名稱(參數值1[,參數值2,...]):
 ### return[回傳值1，回傳值2，。。。。]
 <font color=#FF0000>不論是**return**或*接*續右邊的回傳值皆是可有可無，如果有回傳多個資料彼此需以逗號","間隔。</font>
 
-<hr></hr>
+<hr>
 
 # 沒有傳入參數也沒有傳回值的函數
-去看greeting.py
+
+建立greeting.py寫一個函數
 
 可以將greeting的第8行以後的程式碼稱主程式，可以在greeting_no_function.py查看沒有函數功能的程式設計。
 
 可以發現greeting.py和greeting_no_function.py執行結果是一樣
 
 雖然greeting_no_function.py可以完成工作,但是可以發現重複的語句太多了，這不是一個好的設計。如果將"Python 歡迎你" 改成 "Python歡迎你們",程式必須修改5次相同語句。經過greeting_no_function.py和greeting.py的實做比對可以了解函數對程式設計的好處
+
+<hr>
+
+# 函數的參數(Parameter)設計
+
+greeting.py沒有傳遞任何參數，在真實的函數設計與應用中大多是需要傳遞一些參數的。例如:呼叫Python內建函數時，例如:len()、print()....等，皆需要輸入參數，在下面會講解這方面的應用與設計。
+
+
