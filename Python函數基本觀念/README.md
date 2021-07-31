@@ -39,4 +39,9 @@ def 函數名稱(參數值1[,參數值2,...]):
 
 greeting.py沒有傳遞任何參數，在真實的函數設計與應用中大多是需要傳遞一些參數的。例如:呼叫Python內建函數時，例如:len()、print()....等，皆需要輸入參數，在下面會講解這方面的應用與設計。
 
+執行pass_a_parameter時在第9行呼叫函數greeting()時,所放的參數是Nelson,這個字串將傳遞給函數括號內的name參數,所以程式第6行會將Nelson字串透過name參數列印出來。
 
+在Pythony應用中，有時候也常會將第6行寫成下列語法
+
+```python
+print("Hi, "+ name + "Good Morning")
