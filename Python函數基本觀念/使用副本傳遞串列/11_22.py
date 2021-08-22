@@ -37,7 +37,7 @@ def show_served_meal(served):
 order_list = ['大麥克', '勁辣雞腿堡', '麥克雞塊']  # 所有餐點
 served_list = []
 
-# 列出餐廳處理前的餐點內容
+# 列出餐廳處理前的餐點內容 good_job
 show_order_meal(order_list)  # 列出未服務的餐點
 show_served_meal(served_list)  # 列出已服務餐點
 
